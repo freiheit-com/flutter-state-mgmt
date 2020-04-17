@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'provider_demo.dart';
+import 'bloc_demo.dart';
 
 void main() {
   runApp(StateDemoApp());
@@ -27,7 +28,7 @@ class StateDemoApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ProviderMain(),
+      home: BlocMain(),
     );
   }
 }
